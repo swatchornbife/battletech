@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Meta Tags -->
+    	<title>Components</title>
+    	<meta name="description" content="The weapons and equipment that make up a mech">
+		<meta name="author" content="Sam Watchorn">
+		<meta name="robots" content="index">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+		<style>
+			h2.table{
+				color:#900;
+				text-align: center;
+			}
+		</style>
+	</head>
+	
+	<body style="padding-top: 70px">
+  		<!-- body code goes here -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Battletech</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    		<ul class="navbar-nav mr-auto">
+	   				<li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+	   				<li class="nav-item"> <a class="nav-link" href="lore.html">Lore</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="mechs.html">Mechs</a> </li>
+					<li class="nav-item active"> <a class="nav-link" href="components.html">Components</a> </li>
+		  			<li class="nav-item"> <a class="nav-link" href="battletech.html">Battletech</a> </li>
+		 			<li class="nav-item"> <a class="nav-link" href="mechwarrior.html">Mechwarrior</a> </li>
+		  			<li class="nav-item"> <a class="nav-link" href="comment.html">Comment</a> </li>
+        		</ul>
+	    		<form action="https://www.google.ie/search" class="form-inline my-2 my-lg-0">
+	      			<input name="q" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        		</form>
+    		</div>
+  		</nav>
+	
+		<div class="container">
+  			<div class="row">
+  				<section class="col-sm-12">
+					<h2 class="table">Weapons</h2>
+					<p>While crushing opponents underheel is in fact a valid and effective use of legged warmachines, actual ranged weaponry is what enables any semblance of practicality. In broad strokes, the heavier a weapon is, the more damage it will do. Ballistic weapons tend to lose range the larger the calliber, and laser weapons gain range the more powerful the beam, though exceptions exist such as the <span class="italic cColour">Gauss Rifle</span>. Missile weapons don't vary in range, just the amount of missiles launched, thus damage dealt. Here is just a sample of some of the more common weapons used, though variants upon them exist such as <span class="italic cColour">Extended Range Lasers</span> and <span class="italic cColour">Rotary Autocannons</span>, and yet more weapon types can be found further down the timeline.</p>
+	  				<table>
+						<thead>
+							<tr>
+								<th scope="col" class="heading1">Item</th>
+								<th scope="col" class="heading2">Tonnage</th>
+								<th scope="col" class="heading3">Size</th>
+								<th scope="col" class="heading4">BT Heat</th>
+								<th scope="col" class="heading5">MW Heat</th>
+								<th scope="col" class="heading6">BT Damage</th>
+								<th scope="col" class="heading7">MW Damage</th>
+								<th scope="col" class="heading8">BT Range</th>
+								<th scope="col" class="heading9">MW Range</th>
+								<th scope="col" class="heading10">MW Cooldown</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>AC-2</td> <!--Item-->
+								<td>6</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>1</td> <!--BT heat-->
+								<td>0.5</td> <!--MW heat-->
+								<td>2</td> <!--BT Damage-->
+								<td>2</td> <!--MW Damage-->
+								<td>(4)8/16/24</td> <!--BT range-->
+								<td>720/1440</td> <!--MW range-->
+								<td>0.72</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>AC-5</td> <!--Item-->
+								<td>8</td> <!--Tonnage-->
+								<td>4</td> <!--Size-->
+								<td>1</td> <!--BT heat-->
+								<td>1.1</td> <!--MW heat-->
+								<td>5</td> <!--BT Damage-->
+								<td>5</td> <!--MW Damage-->
+								<td>(3)6/12/18</td> <!--BT range-->
+								<td>620/1240</td> <!--MW range-->
+								<td>1.4</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>AC-10</td> <!--Item-->
+								<td>12</td> <!--Tonnage-->
+								<td>7</td> <!--Size-->
+								<td>3</td> <!--BT heat-->
+								<td>2</td> <!--MW heat-->
+								<td>10</td> <!--BT Damage-->
+								<td>10</td> <!--MW Damage-->
+								<td>5/10/15</td> <!--BT range-->
+								<td>450/900</td> <!--MW range-->
+								<td>2.15</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>AC-20</td> <!--Item-->
+								<td>14</td> <!--Tonnage-->
+								<td>10</td> <!--Size-->
+								<td>7</td> <!--BT heat-->
+								<td>5</td> <!--MW heat-->
+								<td>20</td> <!--BT Damage-->
+								<td>20</td> <!--MW Damage-->
+								<td>3/6/9</td> <!--BT range-->
+								<td>270/540</td> <!--MW range-->
+								<td>3.75</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>Gauss Rifle</td> <!--Item-->
+								<td>15</td> <!--Tonnage-->
+								<td>7</td> <!--Size-->
+								<td>1</td> <!--BT heat-->
+								<td>1</td> <!--MW heat-->
+								<td>15</td> <!--BT Damage-->
+								<td>15</td> <!--MW Damage-->
+								<td>(2)7/15/22</td> <!--BT range-->
+								<td>810/2050</td> <!--MW range-->
+								<td>4.25</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>Small Laser</td> <!--Item-->
+								<td>0.5</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>1</td> <!--BT heat-->
+								<td>1.1</td> <!--MW heat-->
+								<td>3</td> <!--BT Damage-->
+								<td>3.75</td> <!--MW Damage-->
+								<td>1/2/3</td> <!--BT range-->
+								<td>160/320</td> <!--MW range-->
+								<td>2.25</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>Medium Laser</td> <!--Item-->
+								<td>1</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>3</td> <!--BT heat-->
+								<td>3.25</td> <!--MW heat-->
+								<td>5</td> <!--BT Damage-->
+								<td>5</td> <!--MW Damage-->
+								<td>3/6/9</td> <!--BT range-->
+								<td>270/540</td> <!--MW range-->
+								<td>3.2</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>Large Laser</td> <!--Item-->
+								<td>5</td> <!--Tonnage-->
+								<td>2</td> <!--Size-->
+								<td>8</td> <!--BT heat-->
+								<td>5.9</td> <!--MW heat-->
+								<td>8</td> <!--BT Damage-->
+								<td>9</td> <!--MW Damage-->
+								<td>5/10/15</td> <!--BT range-->
+								<td>480/960</td> <!--MW range-->
+								<td>3.5</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>Binary Laser</td> <!--Item-->
+								<td>9</td> <!--Tonnage-->
+								<td>4</td> <!--Size-->
+								<td>16</td> <!--BT heat-->
+								<td>13</td> <!--MW heat-->
+								<td>12</td> <!--BT Damage-->
+								<td>18</td> <!--MW Damage-->
+								<td>5/10/15</td> <!--BT range-->
+								<td>480/960</td> <!--MW range-->
+								<td>3.5</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>PPC</td> <!--Item-->
+								<td>7</td> <!--Tonnage-->
+								<td>3</td> <!--Size-->
+								<td>10</td> <!--BT heat-->
+								<td>8</td> <!--MW heat-->
+								<td>10</td> <!--BT Damage-->
+								<td>10</td> <!--MW Damage-->
+								<td>(3)6/12/18</td> <!--BT range-->
+								<td>540/1080</td> <!--MW range-->
+								<td>4</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>SRM-2</td> <!--Item-->
+								<td>1</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>2</td> <!--BT heat-->
+								<td>1.45</td> <!--MW heat-->
+								<td>2x2</td> <!--BT Damage-->
+								<td>4.3</td> <!--MW Damage-->
+								<td>3/6/9</td> <!--BT range-->
+								<td>270</td> <!--MW range-->
+								<td>2</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>SRM-4</td> <!--Item-->
+								<td>2</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>3</td> <!--BT heat-->
+								<td>2.7</td> <!--MW heat-->
+								<td>4x2</td> <!--BT Damage-->
+								<td>8.6</td> <!--MW Damage-->
+								<td>3/6/9</td> <!--BT range-->
+								<td>270</td> <!--MW range-->
+								<td>3</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>SRM-6</td> <!--Item-->
+								<td>3</td> <!--Tonnage-->
+								<td>2</td> <!--Size-->
+								<td>4</td> <!--BT heat-->
+								<td>3.4</td> <!--MW heat-->
+								<td>6x2</td> <!--BT Damage-->
+								<td>12.9</td> <!--MW Damage-->
+								<td>3/6/9</td> <!--BT range-->
+								<td>270</td> <!--MW range-->
+								<td>3.75</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>LRM-5</td> <!--Item-->
+								<td>2</td> <!--Tonnage-->
+								<td>1</td> <!--Size-->
+								<td>2</td> <!--BT heat-->
+								<td>2.2</td> <!--MW heat-->
+								<td>5x1</td> <!--BT Damage-->
+								<td>5</td> <!--MW Damage-->
+								<td>(6)7/14/21</td> <!--BT range-->
+								<td>(180)900</td> <!--MW range-->
+								<td>3.25</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>LRM-10</td> <!--Item-->
+								<td>5</td> <!--Tonnage-->
+								<td>2</td> <!--Size-->
+								<td>4</td> <!--BT heat-->
+								<td>3.6</td> <!--MW heat-->
+								<td>10x1</td> <!--BT Damage-->
+								<td>10</td> <!--MW Damage-->
+								<td>(6)7/14/21</td> <!--BT range-->
+								<td>(180)900</td> <!--MW range-->
+								<td>3.7</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>LRM-15</td> <!--Item-->
+								<td>7</td> <!--Tonnage-->
+								<td>3</td> <!--Size-->
+								<td>5</td> <!--BT heat-->
+								<td>4.5</td> <!--MW heat-->
+								<td>15x1</td> <!--BT Damage-->
+								<td>15</td> <!--MW Damage-->
+								<td>(6)7/14/21</td> <!--BT range-->
+								<td>(180)900</td> <!--MW range-->
+								<td>4</td> <!--MW cooldown-->
+							</tr>
+							<tr>
+								<td>LRM-20</td> <!--Item-->
+								<td>10</td> <!--Tonnage-->
+								<td>5</td> <!--Size-->
+								<td>6</td> <!--BT heat-->
+								<td>5.4</td> <!--MW heat-->
+								<td>20x1</td> <!--BT Damage-->
+								<td>20</td> <!--MW Damage-->
+								<td>(6)7/14/21</td> <!--BT range-->
+								<td>(180)900</td> <!--MW range-->
+								<td>4.3</td> <!--MW cooldown-->
+							</tr>
+						</tbody>
+					</table>
+	  			</section>
+			</div> <!-- row -->
+			<div class="row">
+  				<section class="col-sm-12">
+					<h2 class="table">Engines</h2>
+					<p>Ever since their inception, Battlemechs have been powered by miniature <span class="italic cColour">fusion reactor</span> power plants. There are almost as many engines available as there are mech variants, but generally they're grouped together into "ratings" of engine. The higher the number of the engine rating, the more power it outputs, and the faster it can move the mech it's mounted to. All engines require a minumum of <span class="italic cColour">10 Heat Sinks</span> to be ran safely. Engines of rating 250 and above come with 10 heat sinks pre-installed, though below this, they require external heat sinks to be mounted to the mech. Conversely, engine ratings above 250 will come with internal slots to mount additional heat sinks without taking up space in the mech.</p>
+					<p>A <span class="italic cColour">Standard</span> Fusion Engine will only occupy the Center Torso of a Mech, and also weighs a significant amount. An <span class="italic cColour">Extra-Light Engine</span> only weighs about half as much as its Standard counterpart, however extends significantly into both Side Torsos, and will be destroyed if either ST is critically damaged. A <span class="italic cColour">Light Fusion Engine</span> is a compromise between weight and survivability, weighing about 2/3rds as much as a Standard counterpart, and extending only slightly into both Side Torsos, allowing the mech to survive the destruction of one ST and keep fighting, though with noticable degradation in engine performance.</p>
+	  				<table>
+						<thead>
+							<tr>
+								<th scope="col" class="heading1">Engine Rating</th>
+								<th scope="col" class="heading2">Internal HS</th>
+								<th scope="col" class="heading3">HS Mounts</th>
+								<th scope="col" class="heading4">Std. Weight</th>
+								<th scope="col" class="heading5">LFE Weight</th>
+								<th scope="col" class="heading6">XLE Weight</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>100</td> <!--Rating-->
+								<td>4</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>1</td> <!--Std-->
+								<td>0.5</td> <!--LFE-->
+								<td>-0.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>125</td> <!--Rating-->
+								<td>5</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>4</td> <!--Std-->
+								<td>3</td> <!--LFE-->
+								<td>2</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>150</td> <!--Rating-->
+								<td>6</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>6.5</td> <!--Std-->
+								<td>5.5</td> <!--LFE-->
+								<td>4</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>175</td> <!--Rating-->
+								<td>7</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>9</td> <!--Std-->
+								<td>7.5</td> <!--LFE-->
+								<td>5.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>200</td> <!--Rating-->
+								<td>8</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>11.5</td> <!--Std-->
+								<td>9.5</td> <!--LFE-->
+								<td>7.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>225</td> <!--Rating-->
+								<td>9</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>15</td> <!--Std-->
+								<td>12.5</td> <!--LFE-->
+								<td>10</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>250</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>0</td> <!--Mounts-->
+								<td>18.5</td> <!--Std-->
+								<td>15.5</td> <!--LFE-->
+								<td>12.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>275</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>1</td> <!--Mounts-->
+								<td>21.5</td> <!--Std-->
+								<td>18</td> <!--LFE-->
+								<td>14</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>300</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>2</td> <!--Mounts-->
+								<td>25</td> <!--Std-->
+								<td>20.5</td> <!--LFE-->
+								<td>15.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>325</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>3</td> <!--Mounts-->
+								<td>30.5</td> <!--Std-->
+								<td>25</td> <!--LFE-->
+								<td>19</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>350</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>4</td> <!--Mounts-->
+								<td>36.5</td> <!--Std-->
+								<td>29.5</td> <!--LFE-->
+								<td>22</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>375</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>5</td> <!--Mounts-->
+								<td>45.5</td> <!--Std-->
+								<td>36</td> <!--LFE-->
+								<td>26.5</td> <!--XLE-->
+							</tr>
+							<tr>
+								<td>400</td> <!--Rating-->
+								<td>10</td> <!--Internal-->
+								<td>6</td> <!--Mounts-->
+								<td>59.5</td> <!--Std-->
+								<td>46.5</td> <!--LFE-->
+								<td>33.5</td> <!--XLE-->
+							</tr>
+						</tbody>
+					</table>
+	  			</section>
+			</div> <!-- row -->
+		</div> <!-- container -->
+	
+		<div class="container">
+  			<div class="row">
+
+				<div class="footerL col-sm-12 col-lg-6">
+					<h2>Contact</h2>
+			  		<p>69 Fakeway Drive</p>
+		   		 	<p>The Holy See</p>
+					<p>Vatican City</p>
+					<p>Italy</p>
+				</div>
+  
+				<div class="footerR col-sm-12 col-lg-6">
+		  			<p><a href="mailto:24swatchorn.bife@wicklowvec.ie"> Send Email</a></p>
+					<p><a href="tel:0860890266"> Tel: 086 089 0266</a></p>
+					<p><a href="https://www.instagram.com/" target="_blank"> Instagram&trade;</a></p>
+					<p class="linked"><a href="https://www.linkedin.com/" target="_blank"> Linkedin</a></p>
+				</div>
+  
+			</div>
+		</div>
+	  
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/popper.min.js"></script> 
+		<script src="js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>

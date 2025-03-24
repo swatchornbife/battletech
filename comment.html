@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Meta Tags -->
+    	<title>Post Comment</title>
+    	<meta name="description" content="Ask a question or start a discussion">
+		<meta name="author" content="Sam Watchorn">
+		<meta name="robots" content="index">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body style="padding-top: 70px">
+  		<!-- body code goes here -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Battletech</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    		<ul class="navbar-nav mr-auto">
+	    			<li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+	    			<li class="nav-item"> <a class="nav-link" href="lore.html">Lore</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="mechs.html">Mechs</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="components.html">Components</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="battletech.html">Battletech</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="mechwarrior.html">Mechwarrior</a> </li>
+		  			<li class="nav-item active"> <a class="nav-link" href="comment.html">Comment</a> </li>
+        		</ul>
+	    		<form action="https://www.google.ie/search" class="form-inline my-2 my-lg-0">
+	      			<input name="q" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        		</form>
+      		</div>
+  		</nav>
+	
+		<div class="container">
+			<div class="row">
+				<section class="col-sm-12">
+	  	  			<form action="#" id="frmComment" method="post">
+						<h2>Post a Comment</h2>
+						<label for="name">
+							<span>First Name:</span>
+							<input type="text" id="name" name="name" placeholder="Enter First Name">
+						</label>
+						<label for="surname">
+							<span>Second Name:</span>
+							<input type="text" id="surname" name="surname" placeholder="Enter Second Name">
+						</label>
+						<label for="email">
+							<span>Email:</span>
+							<input type="email" multiple id="email" name="email" placeholder="Enter your email address">
+						</label>
+						<label for="choose">
+							<span>Topic:</span>
+							<select id="choose">
+								<option value="">--Please choose an option--</option>
+								<option value="option1">Question</option>
+								<option value="option2">Answer</option>
+								<option value="option3">Discussion</option>
+								<option value="option4">Suggestion</option>
+								<option value="option5">Other</option>
+							</select>
+						</label>
+						<label for="display">
+							<span>Dislpay:</span>
+							<input type="text" id="display" name="display" placeholder="The name to display above your comment">
+						</label>
+						<label for="comment">
+							<span>Comment:</span>
+							<textarea rows="4" cols="50" id="comment" name="comment"></textarea>
+						</label>
+						<input type="submit" value="Post Comment" name="submit" class="button">
+					</form>
+				</section>
+  			</div>
+		</div>
+	
+		<div class="container">
+  			<div class="row">
+	
+				<div class="footerL col-sm-12 col-lg-6">
+					<h2>Contact</h2>
+			  		<p>69 Fakeway Drive</p>
+			    	<p>The Holy See</p>
+					<p>Vatican City</p>
+					<p>Italy</p>
+				</div>
+	  
+				<div class="footerR col-sm-12 col-lg-6">
+			  		<p><a href="mailto:24swatchorn.bife@wicklowvec.ie"> Send Email</a></p>
+					<p><a href="tel:0860890266"> Tel: 086 089 0266</a></p>
+					<p><a href="https://www.instagram.com/" target="_blank"> Instagram&trade;</a></p>
+					<p class="linked"><a href="https://www.linkedin.com/" target="_blank"> Linkedin</a></p>
+				</div>
+	  
+			</div>
+		</div>
+	  
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/popper.min.js"></script> 
+		<script src="js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>

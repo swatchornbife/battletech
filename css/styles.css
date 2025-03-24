@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 20px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Chakra Petch", sans-serif;			  /*specifies maximum width of paragraphs*/
+	margin: 50px auto;			  /*specifies margin size and type*/
+	background: rgb(245,245,245); /*specifies background colour*/
+	color: #000;				  /*specifies text colour*/
+	line-height: 1.5;			  /*specifies line spacing*/
+}
+
+/*Navbar Styles*/
+nav.navbar {
+	padding: 20px;			  			  /*creates space inside the navbar*/
+	background-color: #82341e !important; /*sets the color of the navbar*/
+}
+
+nav.navbar .navbar-nav { /*creates a box around the links*/
+	padding-top: 5px;
+	padding-left: 20px;
+	background-color: #A44931;
+}
+
+nav.navbar .navbar-nav a.nav-link {
+	padding: 8px 20px; /*creates space around the link*/
+	color: #EDD1B7;	   /*sets the colour of the link*/
+	text-align: left;
+	font-size: 1rem;   /*sets the font size of the link*/
+}
+
+nav.navbar .navbar-nav a.nav-link:hover { /*makes the links change colour when hovered over*/
+	color: #F89637;
+}
+
+nav.navbar .navbar-nav .active a.nav-link { /*sets the styling of the currently active page*/
+	font-weight: bold;
+	color: #F89637;
+	background: transparent;
+	border-bottom: 4px solid #F89637;
+}
+
+nav.navbar a.navbar-brand {
+	color: #F89637;
+	background-color: #A44931;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-variant: normal;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h2.center {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 0 0 1rem 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.cColour {
+	color: #FF3500;
+}
+
+/*Link Styles*/
+a:link, a:active, a:visited {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#carouselExampleIndicators1 img {
+	width: 100%;
+	height: auto;
+}
+
+/*Footer Styles*/
+footer {
+	width:100%
+}
+footer h2 {}
+.footerL {
+	float: left;
+	padding: 0;
+	border-right: 1px solid #999;
+}
+.footerR {
+	float: right;
+	text-align: right;
+	padding: 0;
+}
+
+.footerR p.linked {
+	background: url("../images/linkedin.png") no-repeat right;
+	padding-right: 30px;
+}
+
+/*Media Styles*/
+video {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+img.full {
+	width: 100%;
+}
+
+img.medium {
+	width: 70%;
+	display: block;
+	margin: 10px auto;	
+}
+
+img.small {
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+}
+
+img.uniform {
+	height: 200px;
+	width: auto;
+	margin: 10px auto;
+}
+
+/*Comment Form Styles*/
+#fromComment {
+	width: 90%;
+	margin: 30px auto;
+	font-size: 0.9rem;
+}
+
+#frmComment label {
+	float: left;
+	width: 100%;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#frmComment label span {
+	float: left;
+	width: 30%;
+	text-align: right;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+#frmComment input {
+	float: left;
+	width: 50%;
+	border: 1px solid #999;
+	box-shadow: 0px 5px 5px #e3e3e3;
+	margin: 10px 0 0 20px;
+	padding: 20px 10px;
+	height: 18px;
+}
+
+#frmComment input:hover, #frmComment textarea:hover {
+	box-shadow: 5px 5px 8px #c1c1c1;
+}
+
+#frmComment textarea {
+	float: left;
+	width: 51%;
+	margin: 8px 0 0 20px;
+	border: solid 1px #999;
+	box-shadow: 2px 8px 8px #e3e3e3;
+	padding: 10px 0 0 5px;
+}
+
+select {
+	width: 50%;
+	padding: 12px 10px 10px 10px;
+	margin: 8px 0 0 20px;
+	border: 1px solid #999;
+	color: #999;
+	font-size: 16px;
+}
+
+#frmComment input[type=submit] {
+	padding: 2px 2px;
+	text-align: center;
+	width: 180px;
+	height: 45px;
+	float: left;
+	color: #82341e;
+	background: #A44931;
+	border: 1px solid #A44931;
+	margin: 0px 0 0 32%;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+#frmComment input[type=submit]:hover {
+	background: #A44931;
+	border: 1px solid #A44931;
+	color: #FFB267;
+}
+
+/*Table Styles*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	margin: 10px auto;
+}
+
+th {
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 10px 8px;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
+
+td {
+	font-size: 0.9rem;
+	color: white;
+	border-bottom: 1px solid #CCC;
+	padding: 12px 6px;
+	text-align: center;
+}
+
+table tr:nth-of-type(even) {
+	background-color: rgb(50,50,50);
+}
+
+table tr:nth-of-type(even):hover {
+	background-color: rgb(75,75,75);
+	cursor: pointer;
+}
+
+table tr:nth-of-type(odd) {
+	background-color: rgb(100,100,100);
+}
+
+table tr:nth-of-type(odd):hover {
+	background-color: rgb(125,125,125);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+	.footerL {
+		border-right: none;
+		border-bottom: 1px solid #999;
+		padding-left: 1rem;
+	}
+	.footerR {
+		text-align: left;
+		padding: 1rem 0 1rem 1rem;
+	}
+
+
+	.footerR p.linked {
+		background: url("../images/linkedin.png") no-repeat 80px 0;
+		padding-right: 30px;
+	}
+
+	form.form-inline {
+		width: 100%;
+	}
+
+	form.form-inline input[type=search] {
+		width: 40%;
+	}
+
+	form.form-inline button[type=submit] {
+		display: none;
+		width: 0;
+	}
+	
+	nav.navbar .navbar-nav {
+		padding-left: 0;
+	}
+	
+	nav.navbar .navbar-nav a.nav-link {
+		padding: 8px 20px 8px 0;
+		width: 30%;
+	}
+	
+	h2 {
+		font-size: 1.1rem;
+	}
+	
+	p {
+		font-size: 0.85rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	table, thead, tbody, th, td, tr, caption {
+		display: block;
+	}
+	
+	thead tr {
+		display: none;
+	}
+	
+	table td {
+		border: none;
+		position: relative;
+		text-align: center;
+		font-size: 0.9rem;
+		border-bottom: 2px solid white;
+	}
+	
+	td:before {
+		position: absolute;
+		top: 12px;
+		left: 10px;
+		width: 25%;
+		font-weight: bold;
+		white-space: nowrap;
+		text-align: left;
+		font-size: 0.9rem;
+	}
+	
+	td:nth-of-type(10) {
+		border-bottom: 4px solid white;
+	}
+	
+	/*label the data*/
+	td:nth-of-type(1):before {
+		content: "Item";
+	}
+	
+	td:nth-of-type(2):before {
+		content: "Tonnage";
+	}
+	
+	td:nth-of-type(3):before {
+		content: "Size";
+	}
+	
+	td:nth-of-type(4):before {
+		content: "BT Heat";
+	}
+	
+	td:nth-of-type(5):before {
+		content: "MW Heat";
+	}
+	
+	td:nth-of-type(6):before {
+		content: "BT Damage";
+	}
+	
+	td:nth-of-type(7):before {
+		content: "MW Damage";
+	}
+	
+	td:nth-of-type(8):before {
+		content: "BT Range";
+	}
+	
+	td:nth-of-type(9):before {
+		content: "MW Range";
+	}
+	
+	td:nth-of-type(10):before {
+		content: "MW Cooldown";
+	}
+}
